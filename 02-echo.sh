@@ -10,3 +10,11 @@ echo line3
 
 
 echo lineX\nlineY
+# To use escape sequence characters, you need to enable the escape sequence using an option called `-e`
+
+echo -e "lineX\nlineY"
+
+# " : Double Quote 
+# ' : Single Quote
+
+echo -e "lineA\n\tlineB"
