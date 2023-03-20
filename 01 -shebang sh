@@ -6,4 +6,8 @@
 #And SHEBANG Notion should always start with #
 #SHEBANG : using this notion , we are going to telll sysytem that the interpretor to be used to this script
 #Apart from the line 1 or the first line of the  script , anything start with '#' will be refferef a comment
-# what is comment ? it is just to add some description or to exclude something
+# what is comment ? it is just to add some description or to exclude something 
+
+echo Hello World 
+echo This is first session of bash 
+echo We know how to run a  script
