@@ -1,18 +1,19 @@
 #/bin/bash 
 
-Colors       Foreground          Background
+# Colors       Foreground          Background
 
- Red               31                  41
+# Red               31                  41
 
- Green             32                  42
+# Green             32                  42
 
- Yellow            33                  43
+# Yellow            33                  43
 
- Blue              34                  44
+# Blue              34                  44
 
-Magenta           35                  45
+# Magenta           35                  45
 
- Cyan              36                  46
+# Cyan              36                  46
+ 
 
  The syntax to print colors is 
  # Ex:  
@@ -20,5 +21,7 @@ Magenta           35                  45
  #      echo -e "\e[32m I am printing Green Color \e[0m"
 
  echo -e "\e[32m I am printing Green Color \e[0m"
-
+echo -e "\e[31m I am printing Red Color \e[0m"
+echo -e "\e[33m I am printing Yellow Color \e[0m"
+echo -e "\e[34m I am printing Blue Color \e[0m"
 
